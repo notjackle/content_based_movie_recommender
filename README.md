@@ -1,5 +1,20 @@
 # content_based_movie_recommender
-The Gist of the algo is to embed the plots and the titles, and use their combined embeddings and cosine similarity to retrieve the nearest neighbors of each given query movie. Then, the recommendations that do not match the metadata (genre, year, language, country, length) are dropped. The top remainder reocmmendations are returned. See details in the notebook.
+
+{
+  "Batman (United States of America, 1966)": [
+    "Batman (United States of America/United Kingdom, 1989)",
+    "Batman Returns (United States of America/United Kingdom, 1992)",
+    "Adventures of Captain Marvel (United States of America, 1941)"
+  ],
+  "Batman (United States of America/United Kingdom, 1989)": [
+    "Batman (United States of America, 1966)",
+    "Batman Begins (United States of America/United Kingdom, 2005)",
+    "Batman & Robin (United States of America/United Kingdom, 1997)"
+  ]
+}
+
+# The Gist of the algo 
+To embed the plots and the titles, and use their combined embeddings and cosine similarity to retrieve the nearest neighbors of each given query movie. Then, the recommendations that do not match the metadata (genre, year, language, country, length) are dropped. The top remainder reocmmendations are returned. See details in the notebook.
 
 The filtering code is thus explained: 
 Each recommendation must have a matching genre, language and country, so that we Batman in English doesn't
