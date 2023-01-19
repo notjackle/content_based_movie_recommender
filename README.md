@@ -11,12 +11,12 @@ Each recommendation must have a matching genre, language and country, so that we
 FYI this use of the criteria rules is honed for avoiding bad recommendations, at the expense of some recall. 
 
 # instructions
-cd into the repo folder
-run "pip install requirements.txt"
-unzip the train file, into the same repo folder
-run the notebook (this may take over an hour if you run on a CPU, on my GPU it took ~10min)
-run "python app.py"
-use this URL to get similar movies: "http://localhost:105/your favorite movie title"
+1. clone the repo, cd into the repo folder
+2. run "pip install requirements.txt"
+3. unzip the train file, into the same repo folder
+4. run the notebook (this may take over an hour if you run on a CPU, on my GPU it took ~10min)
+5. run "python app.py"
+6. use this URL to get similar movies: "http://localhost:105/your favorite movie title"
 
 # Future work
 tune the reduced dimension size of the titles (50), against a labelled dataset of movie similarities.
