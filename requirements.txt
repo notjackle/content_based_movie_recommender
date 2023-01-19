@@ -1,0 +1,9 @@
+pandas
+numpy
+wordcloud
+matplotlib
+transformers
+flask
+itables
+scikit-learn
+torch
