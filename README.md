@@ -21,7 +21,18 @@ For "Batman" you'd get these recommendations (for 2 separate movies with that ti
 
 For "Titanic":
 ```json
-{"Titanic (United States of America, 1953)":["The Chambermaid on the Titanic (, )","Lifeboat (United States of America, 1944)","Submarine (United States of America, 1928)"],"Titanic (United States of America/Canada, 1996)":["The Chambermaid on the Titanic (, )","Overboard (United States of America, 1987)","Submarine (United States of America/England/United Kingdom, 2010)"]}
+{
+  "Titanic (United States of America, 1953)": [
+    "The Chambermaid on the Titanic (, )",
+    "Lifeboat (United States of America, 1944)",
+    "Submarine (United States of America, 1928)"
+  ],
+  "Titanic (United States of America/Canada, 1996)": [
+    "The Chambermaid on the Titanic (, )",
+    "Overboard (United States of America, 1987)",
+    "Submarine (United States of America/England/United Kingdom, 2010)"
+  ]
+}
 ```
 
 # The Gist of the algo 
